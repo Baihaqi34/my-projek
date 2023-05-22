@@ -1,0 +1,316 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    height: 68px;
+    background: white;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(127, 189, 243);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+ul{
+    height: 68px;
+    width: 200px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+
+    
+}
+
+
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    margin: 7px;
+    /* font-weight: bold; */
+}
+
+
+li a:hover{
+    color: tomato;
+}
+
+
+.header{
+    height: 700px;
+    width: 100%; 
+    position: absolute;
+    top: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-head{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.teks-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+}
+.teks-head1{
+   
+    color: white;
+    font-size: 3em;
+    margin: 10px;
+    text-align: center;
+    
+
+}
+
+.teks-head2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.btn-head{
+    margin: 30px;
+    padding: 13px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 12px;
+    left: 108px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(241, 72, 191);
+    color: white;
+    width: 200px;
+}
+
+.btn-head:hover{
+    background: rgb(209, 63, 165);
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
+.about{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 765px;
+    z-index: -1;
+}
+.img-container{
+
+    height: 800px;
+    width: 600px;
+    float: right;
+}
+.img-about{
+    height: 800px;
+    width: 600px;
+}
+
+.teks-about{
+    width: 663px;
+    height: 800px;
+    float: left;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    color: rgb(18, 73, 194);
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+
+.paragraf{
+    font-size: 21px;
+    width: 487px;
+    position: absolute;
+    left: 70px;
+    top: 137px;
+    word-spacing: 5px;
+
+    
+}
+
+.title2{
+    color: rgb(18, 73, 194);
+    position: absolute;
+    top: 400px;
+    left: 60px;
+}
+
+.teks-title2{
+    font-size: 21px;
+    width: 578px;
+    position: absolute;
+    left: 70px;
+    bottom: 232px;
+    word-spacing: 5px;
+}
+
+.btn-readmore{
+    margin: 30px;
+    padding: 13px;
+    font-size: 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 32px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(241, 72, 191);
+    color: white;
+    width: 118px;
+}
+
+
+.btn-readmore:hover{
+    cursor: pointer;
+    background: rgb(209, 63, 165);
+    transition: .5s;
+}
+
+
+
+.service{
+    background: rgb(209, 209, 209);
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    bottom: -1450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.title-service{
+    font-size: 40px;
+    position: absolute;
+    top: 60px;
+    color:rgb(18, 73, 194);
+}
+
+.contain-card{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    height: 300px;
+    width: 243px;
+    margin: 5px;
+    
+}
+
+
+.icon{
+    width:  243px ;
+}
+
+
+
+.btn-book{
+    width: 243px;
+    height: 130px;
+    background: white;
+    position: absolute;
+    top: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.judul{
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.btn-service{
+
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    border: 2px solid rgb(241, 72, 191);
+    color: rgb(241, 72, 191);
+    background: white;
+    width: 118px;
+    align-items: center;
+}
+
+.contain-more{
+    display: flex;
+    position: absolute;
+    bottom: 130px;
+    justify-content: center;
+}
+
+.more{
+    margin: 30px;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    background: rgb(241, 72, 191);
+    color: white;
+    width: 118px;
+}
+
+.more:hover{
+    cursor: pointer;
+    background: rgb(209, 63, 165);
+    transition: .5s;
+}
+
+
+.icon, .judul, .btn-service:hover{
+    cursor: pointer;
+}
